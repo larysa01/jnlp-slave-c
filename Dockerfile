@@ -1,5 +1,5 @@
 FROM jenkins/jnlp-slave
-
+USER root
 #RUN apk add gcc==5.3.0-r0 -U
 RUN apt-get update &&  apt-get install  -y \
     gcc-4.9 \
